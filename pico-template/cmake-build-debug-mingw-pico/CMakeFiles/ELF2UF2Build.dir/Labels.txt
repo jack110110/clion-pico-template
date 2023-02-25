@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+D:/test/clion-pico-template/pico-template/cmake-build-debug-mingw-pico/CMakeFiles/ELF2UF2Build
+D:/test/clion-pico-template/pico-template/cmake-build-debug-mingw-pico/CMakeFiles/ELF2UF2Build.rule
+D:/test/clion-pico-template/pico-template/cmake-build-debug-mingw-pico/CMakeFiles/ELF2UF2Build-complete.rule
+D:/test/clion-pico-template/pico-template/cmake-build-debug-mingw-pico/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+D:/test/clion-pico-template/pico-template/cmake-build-debug-mingw-pico/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+D:/test/clion-pico-template/pico-template/cmake-build-debug-mingw-pico/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+D:/test/clion-pico-template/pico-template/cmake-build-debug-mingw-pico/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+D:/test/clion-pico-template/pico-template/cmake-build-debug-mingw-pico/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+D:/test/clion-pico-template/pico-template/cmake-build-debug-mingw-pico/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+D:/test/clion-pico-template/pico-template/cmake-build-debug-mingw-pico/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

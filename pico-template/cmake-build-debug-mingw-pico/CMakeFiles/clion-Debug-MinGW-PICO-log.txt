@@ -1,0 +1,35 @@
+"D:\CLion\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe "-DCMAKE_C_COMPILER=D:/ARM GNU/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=D:/ARM GNU/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe" -G "CodeBlocks - MinGW Makefiles" -S D:\test\clion-pico-template\pico-template -B D:\test\clion-pico-template\pico-template\cmake-build-debug-mingw-pico
+Using PICO_SDK_PATH from environment ('D:\test\clion-pico-template\pico-sdk')
+PICO_SDK_PATH is D:/test/clion-pico-template/pico-sdk
+Defaulting PICO_PLATFORM to rp2040 since not specified.
+Defaulting PICO platform compiler to pico_arm_gcc since not specified.
+PICO compiler is pico_arm_gcc
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/ARM GNU/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/ARM GNU/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/ARM GNU/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Build type is Debug
+Using regular optimized debug build (set PICO_DEOPTIMIZED_DEBUG=1 to de-optimize)
+Defaulting PICO target board to pico since not specified.
+Using board configuration from D:/test/clion-pico-template/pico-sdk/src/boards/include/boards/pico.h
+-- Found Python3: D:/python/python 3.11.2/python.exe (found version "3.11.2") found components: Interpreter 
+TinyUSB available at D:/test/clion-pico-template/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040; enabling build support for USB.
+Compiling TinyUSB with CFG_TUSB_DEBUG=1
+BTstack available at D:/test/clion-pico-template/pico-sdk/lib/btstack
+cyw43-driver available at D:/test/clion-pico-template/pico-sdk/lib/cyw43-driver
+Pico W Bluetooth build support available.
+lwIP available at D:/test/clion-pico-template/pico-sdk/lib/lwip
+mbedtls available at D:/test/clion-pico-template/pico-sdk/lib/mbedtls
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/test/clion-pico-template/pico-template/cmake-build-debug-mingw-pico

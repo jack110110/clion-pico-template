@@ -1,0 +1,24 @@
+CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: \
+ D:\test\clion-pico-template\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\c++\10.3.1\cstdlib \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\c++config.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\os_defines.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\cpu_defines.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\stdlib.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\machine\ieeefp.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\_ansi.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\newlib.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\_newlib_version.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\sys\config.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\sys\features.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\sys\reent.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\_ansi.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\sys\_types.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\machine\_types.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\machine\_default_types.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\sys\lock.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\sys\cdefs.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\machine\stdlib.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\alloca.h \
+ d:\armgnu~1\gcc-ar~1.10-\gcc-ar~1.10\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h
