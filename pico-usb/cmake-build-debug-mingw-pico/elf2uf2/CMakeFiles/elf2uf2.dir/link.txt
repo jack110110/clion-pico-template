@@ -1,0 +1,3 @@
+"D:\CLion\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\elf2uf2.dir/objects.a
+D:\CLion\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\elf2uf2.dir/objects.a @CMakeFiles\elf2uf2.dir\objects1.rsp
+D:\CLion\CLION2~1.2\bin\mingw\bin\G__~1.EXE -Wl,--whole-archive CMakeFiles\elf2uf2.dir/objects.a -Wl,--no-whole-archive -o elf2uf2.exe -Wl,--out-implib,libelf2uf2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\elf2uf2.dir\linklibs.rsp
