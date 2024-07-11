@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pioasm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pioasm">
+				<Option output="D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/pioasm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/test/clion-pico-template/pico-sdk/tools/pioasm"/>
+					<Add directory="D:/test/clion-pico-template/pico-sdk/tools/pioasm/gen"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 pioasm"/>
+					<CompileFile command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pioasm/fast">
+				<Option output="D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/pioasm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/test/clion-pico-template/pico-sdk/tools/pioasm"/>
+					<Add directory="D:/test/clion-pico-template/pico-sdk/tools/pioasm/gen"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 pioasm/fast"/>
+					<CompileFile command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW-W64_gcc/mingw64/bin/mingw32-make.exe -f &quot;D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/ada_output.cpp">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/c_sdk_output.cpp">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/gen/lexer.cpp">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/gen/parser.cpp">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/gen/parser.hpp">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/hex_output.cpp">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/main.cpp">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/pio_assembler.cpp">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/pio_assembler.h">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/pio_disassembler.cpp">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/pio_disassembler.h">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/python_output.cpp">
+			<Option target="pioasm"/>
+		</Unit>
+		<Unit filename="D:/test/clion-pico-template/pico-sdk/tools/pioasm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

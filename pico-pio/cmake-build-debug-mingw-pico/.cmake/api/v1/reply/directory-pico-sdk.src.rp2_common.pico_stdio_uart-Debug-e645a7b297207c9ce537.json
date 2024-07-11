@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pico-sdk/src/rp2_common/pico_stdio_uart",
+		"source" : "D:/test/clion-pico-template/pico-sdk/src/rp2_common/pico_stdio_uart"
+	}
+}

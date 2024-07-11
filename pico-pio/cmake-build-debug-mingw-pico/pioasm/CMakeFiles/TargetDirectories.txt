@@ -1,0 +1,3 @@
+D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/CMakeFiles/pioasm.dir
+D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/CMakeFiles/edit_cache.dir
+D:/test/clion-pico-template/pico-pio/cmake-build-debug-mingw-pico/pioasm/CMakeFiles/rebuild_cache.dir
