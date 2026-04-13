@@ -1411,9 +1411,9 @@ Discarded input sections
                 0x00000000       0x40 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .rodata.__func__.0
                 0x00000000       0x13 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .text          0x00000000        0x0 C:\Users\fuzhi\AppData\Local\Temp\ccwOeV6P.o
- .data          0x00000000        0x0 C:\Users\fuzhi\AppData\Local\Temp\ccwOeV6P.o
- .bss           0x00000000        0x0 C:\Users\fuzhi\AppData\Local\Temp\ccwOeV6P.o
+ .text          0x00000000        0x0 C:\Users\fuzhi\AppData\Local\Temp\ccYhhix8.o
+ .data          0x00000000        0x0 C:\Users\fuzhi\AppData\Local\Temp\ccYhhix8.o
+ .bss           0x00000000        0x0 C:\Users\fuzhi\AppData\Local\Temp\ccYhhix8.o
  .data          0x00000000        0x0 d:/armgnu~1/gcc-ar~1.10-/gcc-ar~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 d:/armgnu~1/gcc-ar~1.10-/gcc-ar~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 d:/armgnu~1/gcc-ar~1.10-/gcc-ar~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1629,7 +1629,7 @@ LOAD d:/armgnu~1/gcc-ar~1.10-/gcc-ar~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/..
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\fuzhi\AppData\Local\Temp\ccwOeV6P.o
+ .boot2         0x10000000      0x100 C:\Users\fuzhi\AppData\Local\Temp\ccYhhix8.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3149,7 +3149,7 @@ LOAD CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/tu
 LOAD CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-LOAD C:\Users\fuzhi\AppData\Local\Temp\ccwOeV6P.o
+LOAD C:\Users\fuzhi\AppData\Local\Temp\ccYhhix8.o
 LOAD d:/armgnu~1/gcc-ar~1.10-/gcc-ar~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD d:/armgnu~1/gcc-ar~1.10-/gcc-ar~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3266,7 +3266,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000007a2       0x2c CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
-                0x000007ce       0x22 C:\Users\fuzhi\AppData\Local\Temp\ccwOeV6P.o
+                0x000007ce       0x22 C:\Users\fuzhi\AppData\Local\Temp\ccYhhix8.o
  .ARM.attributes
                 0x000007f0       0x1e d:/armgnu~1/gcc-ar~1.10-/gcc-ar~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -3579,52 +3579,52 @@ LOAD linker stubs
  .debug_ranges  0x00004718      0x370 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_ranges  0x00004a88      0x4e0 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
-.debug_line     0x00000000    0x17bb7
- .debug_line    0x00000000      0x829 CMakeFiles/pico.dir/main.c.obj
- .debug_line    0x00000829      0xcd0 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x000014f9      0x294 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x0000178d      0x48f CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00001c1c      0x48b CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x000020a7     0x1090 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00003137      0x23e CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00003375     0x10e9 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x0000445e      0x2c9 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x00004727     0x1bf8 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x0000631f      0xc59 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00006f78      0x8b8 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00007830      0xa0a CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000823a      0x585 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x000087bf      0x41d CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00008bdc      0x2c1 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00008e9d      0xb16 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x000099b3     0x1232 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000abe5      0x151 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000ad36      0x23f CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000af75      0x2da CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000b24f      0x42f CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000b67e      0x368 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000b9e6      0x6a7 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000c08d       0xa1 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000c12e      0x3e5 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000c513      0x35a CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000c86d      0x1d1 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000ca3e       0xcb CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000cb09       0xd9 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000cbe2      0x1d3 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000cdb5      0xed9 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000dc8e      0x47d CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0000e10b      0xe07 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x0000ef12      0x2fb CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x0000f20d      0x3b8 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x0000f5c5      0x7f9 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x0000fdbe      0xec3 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x00010c81      0xa55 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x000116d6     0x2018 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x000136ee      0x493 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x00013b81      0xe32 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x000149b3      0xbe7 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x0001559a     0x1551 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x00016aeb     0x10cc CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.debug_line     0x00000000    0x17bb9
+ .debug_line    0x00000000      0x82b CMakeFiles/pico.dir/main.c.obj
+ .debug_line    0x0000082b      0xcd0 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x000014fb      0x294 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x0000178f      0x48f CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00001c1e      0x48b CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x000020a9     0x1090 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00003139      0x23e CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00003377     0x10e9 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00004460      0x2c9 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x00004729     0x1bf8 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00006321      0xc59 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00006f7a      0x8b8 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00007832      0xa0a CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000823c      0x585 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x000087c1      0x41d CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00008bde      0x2c1 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00008e9f      0xb16 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x000099b5     0x1232 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000abe7      0x151 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000ad38      0x23f CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000af77      0x2da CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000b251      0x42f CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000b680      0x368 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000b9e8      0x6a7 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000c08f       0xa1 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000c130      0x3e5 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000c515      0x35a CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000c86f      0x1d1 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000ca40       0xcb CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000cb0b       0xd9 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000cbe4      0x1d3 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000cdb7      0xed9 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000dc90      0x47d CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0000e10d      0xe07 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x0000ef14      0x2fb CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0000f20f      0x3b8 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x0000f5c7      0x7f9 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x0000fdc0      0xec3 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x00010c83      0xa55 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x000116d8     0x2018 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x000136f0      0x493 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x00013b83      0xe32 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x000149b5      0xbe7 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x0001559c     0x1551 CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x00016aed     0x10cc CMakeFiles/pico.dir/D_/test/clion-pico-template/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
 .debug_str      0x00000000     0x7633
  .debug_str     0x00000000      0x889 CMakeFiles/pico.dir/main.c.obj
